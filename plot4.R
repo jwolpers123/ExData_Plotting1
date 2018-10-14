@@ -1,3 +1,4 @@
+library(dplyr)
 png("plot4.png", width = 480, height = 480)
 Sys.setlocale("LC_TIME", "C")
 ower_cons<-read.table(file="household_power_consumption.txt",header=T, sep=";", stringsAsFactors=FALSE)
